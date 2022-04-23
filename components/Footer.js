@@ -4,6 +4,7 @@ export default function Footer() {
   return (
     <>
     <Script
+    id="smooth-scroll"
       strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `
@@ -34,7 +35,7 @@ export default function Footer() {
                   href="https://github.com/dineshkhadka/"
                   className="social-links__item"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ export default function Footer() {
                   href="#"
                   className="social-links__item"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +81,7 @@ export default function Footer() {
                   href="#"
                   className="social-links__item"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

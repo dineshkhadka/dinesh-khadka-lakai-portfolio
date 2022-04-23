@@ -12,12 +12,6 @@ export default function Home() {
           content="The personal portfolio of Front-end developer Dinesh Lakai Khadka."
         />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Space+Grotesk:wght@700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Navbar />
       <main className="main">
@@ -49,7 +43,7 @@ export default function Home() {
                   href="/dinesh-khadka-lakai.pdf"
                   className="btn btn--link"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -113,7 +107,7 @@ export default function Home() {
         <section className="contact" id="contact">
           <div className="container">
             <h3 className="contact__title">
-              I'm always looking for new challenges and oppurtunities
+              I&apos;m always looking for new challenges and oppurtunities
             </h3>
 
             <a href="mailto:dineshlakai+website@gmail.com" className="btn">
