@@ -1,0 +1,130 @@
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 48px;
+    &__title {
+        background: var(--gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin: 0 0 10px;
+    }
+
+    &__subtitle {
+        font-family: 'Barlow', sans-serif;
+        font-weight: 500;
+        @include fsz(24px);
+        line-height: 1.2;
+        color: var(--body-color);
+    }
+    &__header {
+        margin-bottom: 84px;
+    }
+
+
+    &__footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &__buttons {
+        > *:not(:last-child) {
+            margin: 0 6px 12px;
+
+        }
+    }
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    > * {
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: var(--button);
+        color: #FFF;
+        svg {
+            stroke: currentColor;
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+
+.works {
+
+    &__title {
+        margin-bottom: 0;
+    }
+    &__header {
+        position: relative;
+        padding-bottom: 24px;
+        margin-bottom: 72px;
+        border-bottom: 2px dashed var(--dark);
+           
+    }
+}
+.work {
+
+    & +  & {
+        margin-top: 96px;
+    }
+    &__title {
+        margin-bottom: 6px
+    }
+    &__details {
+        @include fsz(18px);
+    }
+    &__header {
+        position: relative;
+        margin-bottom: 36px;
+        padding-bottom: 28px;
+        &:after {
+            content: '';
+            width: 120px;
+            height: 4px;
+            background-color: var(--body-color);
+            opacity: 0.05;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+    &__description {
+        @include fsz(24px);
+        
+        @media #{$mq-620-down} {
+            @include fsz(18px);
+        }
+    }
+}
+
+.contact {
+    text-align: center;
+    padding-top: 160px;
+    position: relative;
+    &::before {
+        content: '';
+        width: 2px;
+        height: 100px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        background-color: var(--dark);
+    }
+}

@@ -1,0 +1,18 @@
+:root {
+
+  --background: #14112D;
+  --white: #FFF;
+  --gray: #EEE;
+  --dark: #494666;
+  --body-color: #FFF;
+  --button: #9043ed;
+  --gradient: linear-gradient(266.87deg, #8EA7E7 10.89%, #FF3E96 61.91%, #B175FB 108.46%);
+
+}
+
+[data-theme="dark"] {
+  --primary-color: #1f2136;
+  --secondary-color: #cfd7f3;
+  --body-color: #494666;
+  --font-color-dark: #9cb6e2;
+}

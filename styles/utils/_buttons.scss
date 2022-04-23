@@ -1,0 +1,38 @@
+.btn {
+    font-family: var(--secondary-family);
+    appearance: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    text-align: center;
+    text-decoration: none;
+    line-height: 38px;
+    white-space: nowrap;
+    font-weight: 700;
+    min-width: 200px;
+    height: 50px;
+    padding: 0 25px 0 25px;
+    border-radius: 32px;
+    @include fsz(18px);
+    flex-shrink: 0;
+    margin: 0;
+    color: var(--white);
+    background: var(--button);
+    border-radius: 36px;
+    border: none;
+    transition: all .2s ease;
+    user-select: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+.btn--link {
+    background: none;
+    min-width: auto;
+    color: var(--body-color);
+}

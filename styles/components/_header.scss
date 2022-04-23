@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 24px;
+    backdrop-filter: saturate(90%) blur(10px);
+    border-bottom: 1px solid var(--dark);
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        > *:last-child {
+            margin-left: auto;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    > li:not(:last-child) {
+        margin-right: 24px;
+    }
+    li {
+        a {
+            @include fsz(20px);
+            font-weight: 500;
+        }
+    }
+}
