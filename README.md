@@ -2,6 +2,10 @@
 
 Portfolio Page for [https://lakai.dev](https://lakai.dev)
 
+![demo](https://raw.githubusercontent.com/dineshkhadka/dinesh-khadka-lakai-portfolio/master/public/dinesh-lakai-homepage-demo.gif)
+
+
+
 
 ## Getting Started
 
