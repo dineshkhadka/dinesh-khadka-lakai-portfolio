@@ -7,9 +7,8 @@ Portfolio Page for [https://lakai.dev](https://lakai.dev)
 
 
 ### Installing
-
-* `yarn install && yarn dev`
 ```
+yarn install && yarn dev
 
 ```
 
