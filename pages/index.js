@@ -34,7 +34,9 @@ export default function Home() {
             <footer className="hero__footer">
               <div className="hero__buttons">
                 <a
-                  href="mailto:dineshlakai@gmail.com"
+                  href="https://github.com/dineshkhadka/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="btn btn--primary"
                 >
                   View Github
